@@ -1,0 +1,48 @@
+# @package _group_
+
+dpr_wiki:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100
+  id_prefix: 'wiki:'
+
+
+dpr_wiki_combine_to_1_big_json_slit_50_words:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100_combine_to_1_big_json_slit_50_words
+  id_prefix: 'wiki:'
+
+
+dpr_wiki_combine_to_1_big_json_slit_100_words:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100_combine_to_1_big_json_slit_100_words
+  id_prefix: 'wiki:'
+
+
+dpr_wiki_combine_to_1_big_json_slit_200_words:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100_combine_to_1_big_json_slit_200_words
+  id_prefix: 'wiki:'
+
+
+
+dpr_wiki_combine_to_1_big_json_slit_50_words_slide_10_words:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100_combine_to_1_big_json_slit_50_words_slide_10_words
+  id_prefix: 'wiki:'
+
+
+dpr_wiki_combine_to_1_big_json_slit_100_words_slide_20_words:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100_combine_to_1_big_json_slit_100_words_slide_20_words
+  id_prefix: 'wiki:'
+
+
+dpr_wiki_combine_to_1_big_json_slit_200_words_slide_40_words:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100_combine_to_1_big_json_slit_200_words_slide_40_words
+  id_prefix: 'wiki:'
+
+dpr_wiki_combine_to_1_big_json_split_at_least_100_words_sentence_boundary_detection_parallel_for_w100_tsv_combine_to_1_big_json_split_at_least_100_words_first_one_fiftith_lines_only:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: data.wikipedia_split.psgs_w100_tsv_combine_to_1_big_json_split_at_least_100_words_sentence_boundary_detection_parallel_for_w100_tsv_combine_to_1_big_json_split_at_least_100_words_first_one_fiftith_lines_only
+  id_prefix: 'wiki:'
